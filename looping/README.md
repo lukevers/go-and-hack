@@ -1,6 +1,6 @@
 # Looping
 
-Another simple example that I want to touch upon is looping. The test here is that I want to print out "Loop number %d" one hundred thousand times where `%d` is the current iteration of the loop.
+Another simple example that I want to touch upon is looping. The test here is that I want to print out `"Loop number %d"` one hundred thousand times where `%d` is the current iteration of the loop.
 
 I'm running this test 11 times for both Go and Hack.
 
