@@ -20,11 +20,11 @@ I'm running this test 11 times for both Go and Hack.
 | 9       | 0m1.529s | 0m0.191s | 0m0.394s |
 | 10      | 0m1.410s | 0m0.201s | 0m0.355s |
 
-|         | Real     | User     | System   |
-|---------|----------|----------|----------|
-| Best    | 0m1.295s | 0m0.000s | 0m0.300s |
-| Average | 0m1.715s | 0m0.234s | 0m0.444s |
-| Worst   | 0m2.382s | 0m0.378s | 0m0.641s |
+|-------------| Real     | User     | System   |
+| **Best**    |----------|----------|----------|
+| **Average** | 0m1.295s | 0m0.000s | 0m0.300s |
+| **Worst**   | 0m1.715s | 0m0.234s | 0m0.444s |
+| 0m2.382s | 0m0.378s | 0m0.641s |
 
 ## Hack
 
@@ -42,8 +42,18 @@ I'm running this test 11 times for both Go and Hack.
 | 9       | 0m1.206s | 0m0.339s | 0m0.188s |
 | 10      | 0m1.171s | 0m0.164s | 0m0.357s |
 
-|         | Real     | User     | System   |
-|---------|----------|----------|----------|
-| Best    | 0m1.147s | 0m0.164s | 0m0.188s |
-| Average | 0m1.317s | 0m0.258s | 0m0.354s |
-| Worst   | 0m1.676s | 0m0.510s | 0m0.496s |
+|             | Real     | User     | System   |
+|-------------|----------|----------|----------|
+| **Best**    | 0m1.147s | 0m0.164s | 0m0.188s |
+| **Average** | 0m1.317s | 0m0.258s | 0m0.354s |
+| **Worst**   | 0m1.676s | 0m0.510s | 0m0.496s |
+
+## Results
+
+It's interesting if you take a look at the two tables I've created and put them together because Hack wins for Real and System while Go wins for User only.
+
+|             | Real | User | System |
+|-------------|------|------|--------|
+| **Best**    | Hack | Go   | Hack   |
+| **Average** | Hack | Go   | Hack   |
+| **Worst**   | Hack | Go   | Hack   |
