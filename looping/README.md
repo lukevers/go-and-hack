@@ -51,7 +51,7 @@ I'm running this test 11 times for both Go and Hack.
 
 ## Results
 
-It's interesting if you take a look at the two tables I've created and put them together because Hack wins for Real and System while Go wins for User only.
+It's interesting if you take a look at the two tables I've created and put them together because Hack wins for Real and System while Go wins for User only. When I say Hack "wins" for Real and System, I mean that after looking at the Best, Average, and Worst cases of both Hack and Go, Hack has a lower number in the Best, Average, and Worse cases for both Real and System; it is the same, but reversed, with Go for User.
 
 |             | Real | User | System |
 |-------------|------|------|--------|
